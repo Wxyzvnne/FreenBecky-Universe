@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreenBecky Universe | Ultimate Fan Site</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth}
+body{background:#0f0f1a;color:white;line-height:1.6}
+header{background:linear-gradient(135deg,#ff4da6,#7b2ff7);padding:60px 20px;text-align:center}
+header h1{font-size:3rem}
+header p{margin-top:10px;font-weight:300}
+nav{display:flex;justify-content:center;gap:25px;background:#141428;padding:15px;position:sticky;top:0;z-index:1000;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-weight:600}
+nav a:hover{color:#ff4da6}
+section{padding:70px 10%}
+h2{margin-bottom:30px;color:#ff4da6;font-size:2rem;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#1c1c2e;padding:20px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.4);transition:0.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;border-radius:15px;margin-bottom:15px}
+.center{text-align:center}
+.trailer iframe{width:100%;height:315px;border-radius:15px}
+.gallery img{width:100%;border-radius:20px}
+footer{background:#141428;text-align:center;padding:25px;margin-top:40px}
+button{padding:10px 20px;border:none;border-radius:30px;background:#ff4da6;color:white;cursor:pointer;font-weight:600}
+input{padding:10px;border-radius:10px;border:none;width:70%}
+ul{list-style:none;margin-top:15px}
+li{padding:8px 0;border-bottom:1px solid #333}
+.dark-toggle{position:fixed;bottom:20px;right:20px}
+.light{background:#f5f5f5;color:#111}
+.light nav{background:#ddd}
+.light .card{background:white;color:#111}
+.light footer{background:#ddd;color:#111}
+.light li{border-bottom:1px solid #ccc}
+@media(max-width:600px){header h1{font-size:2rem}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>FreenBecky Universe</h1>
+<p>The Ultimate Fan Hub for Freen & Becky — Series, Movies, Awards & More</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#series">Series</a>
+<a href="#movies">Movies</a>
+<a href="#awards">Awards</a>
+<a href="#gallery">Gallery</a>
+<a href="#comments">Fans</a>
+</nav>
+
+<section id="about">
+  <h2>About Freen & Becky</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://www.quick-china.com/mag/jacket/zz05841_index1.jpg" alt="Freen & Becky Together">
+      <h3>Freen & Becky</h3>
+      <p>Thai series stars with global fame — loved worldwide for their work and connection. Popular fans call them "FreenBecky".</p>
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/9d/30/94/9d3094ea63d496ebf37198811fc90f24.jpg" alt="Freen Sarocha">
+      <h3>Freen Sarocha</h3>
+      <p>Thai actress known for her talent and presence onscreen and offscreen.</p>
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/c7/95/ab/c795abe4ad50f0637ca472ef6cdce78f.jpg" alt="Becky Armstrong">
+      <h3>Becky Armstrong</h3>
+      <p>Thai-British actress with charm and strong fanbase across Asia and beyond.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="series">
+  <h2>Series</h2>
+
+<!-- Series Card 1 -->
+  <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;gap:30px;position:relative;margin-bottom:30px;">
+    <div style="flex:0 0 150px; position:relative;">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.lQockZkao9iYO9pnMl8TQgHaKi?pid=Api&P=0&h=220" alt="the loyal pin" style="width:100%;border-radius:15px;">
+      <div style="position:absolute;top:10px;right:10px;background:#FFD700;color:#000;font-weight:bold;padding:5px 10px;border-radius:10px;font-size:12px;box-shadow:0 2px 5px rgba(0,0,0,0.3);">The Loyal Pin</div>
+    </div>
+    <div style="flex:1;min-width:250px;">
+      <h3>The Loyal Pin (2024)</h3>
+      <p><strong>Genre:</strong> Action, Adventure</p>
+      <p><strong>Episodes:</strong> 16</p>
+      <p><strong>Description:</strong> A thrilling action-adventure series that keeps viewers on the edge of their seats with unexpected twists and heroic journeys.</p>
+      <br>
+      <button onclick="window.open('https://youtu.be/lzv--GYRrxQ')">Watch Trailer</button>
+    </div>
+  </div>
+
+  <!-- Series Card 2 -->
+  <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;gap:30px;position:relative;margin-bottom:30px;">
+    <!-- Image -->
+    <div style="flex:0 0 150px; position:relative;">
+      <img src="https://www.themoviedb.org/t/p/original/sRkBqy9Or7LVX6NCxgvaOFq1xJL.jpg" alt="GAP The Series Poster" style="width:100%;border-radius:15px;">
+      <div style="position:absolute;top:10px;right:10px;background:#FFD700;color:#000;font-weight:bold;padding:5px 10px;border-radius:10px;font-size:12px;box-shadow:0 2px 5px rgba(0,0,0,0.3);">Gap the Series</div>
+    </div>
+    <!-- Details -->
+    <div style="flex:1;min-width:250px;">
+      <h3>GAP The Series (2022)</h3>
+      <p><strong>Genre:</strong> Romantic, Drama, GL</p>
+      <p><strong>Episodes:</strong> 12</p>
+      <p><strong>Description:</strong> The first Thai GL series that brought Freen & Becky to global fame. Their chemistry and performance captured millions of hearts worldwide.</p>
+      <br>
+      <button onclick="window.open('https://youtu.be/f7Kso0QOaiE')">Watch Trailer</button>
+    </div>
+  </div>
+
+</section>
+
+
+
+ <section id="movies">
+  <h2>Movies</h2>
+
+  <!-- Movie Card 1 -->
+  <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;gap:30px;position:relative;margin-bottom:30px;">
+    
+    <!-- Image -->
+    <div style="flex:0 0 150px; position:relative;">
+      <img src="https://juksun.com/wp-content/uploads/2024/07/Uranus-2324-Movie-Poster.jpg" alt="uranus 2324" style="width:100%;border-radius:15px;">
+      
+      <!-- Uranus Badge -->
+      <div style="position:absolute;top:10px;right:10px;background:#FFD700;color:#000;font-weight:bold;padding:5px 10px;border-radius:10px;font-size:12px;box-shadow:0 2px 5px rgba(0,0,0,0.3);">
+        Uranus 2324
+      </div>
+    </div>
+
+    <!-- Details -->
+    <div style="flex:1;min-width:250px;">
+      <h3>Uranus 2324 (2024)</h3>
+      <p><strong>Genre:</strong> Sci-Fi, Adventure</p>
+      <p><strong>Duration:</strong> 2h 15min</p>
+      <p><strong>Description:</strong> “Uranus” follows an interstellar expedition to the distant planet Uranus, where astronauts uncover secrets that could change humanity's understanding of the universe. Stunning visuals, intense drama, and thought-provoking themes make it a sci-fi masterpiece.</p>
+      <br>
+      <button onclick="window.open('https://youtu.be/f7Kso0QOaiE','_blank')">Watch Trailer</button>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="awards">
+<h2>Trophies & Awards</h2>
+<div class="grid">
+<div class="card">
+<h3>Best Couple Award</h3>
+<p>Awarded for outstanding on-screen chemistry and fan popularity.</p>
+</div>
+<div class="card">
+<h3>Popular Actress Award</h3>
+<p>Recognizing exceptional performance and fan voting achievements.</p>
+</div>
+<div class="card">
+<h3>Rising Star Award</h3>
+<p>Honoring their rapid success in the entertainment industry.</p>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="grid gallery">
+<img src="https://via.placeholder.com/300" alt="Gallery 1">
+<img src="https://via.placeholder.com/300" alt="Gallery 2">
+<img src="https://via.placeholder.com/300" alt="Gallery 3">
+<img src="https://via.placeholder.com/300" alt="Gallery 4">
+</div>
+</section>
+
+<section id="comments">
+<h2>Fan Comments</h2>
+<div class="card center">
+<input type="text" id="commentInput" placeholder="Leave a message for FreenBecky...">
+<button onclick="addComment()">Post</button>
+<ul id="commentList"></ul>
+</div>
+</section>
+
+<div class="dark-toggle">
+<button onclick="toggleMode()">Toggle Mode</button>
+</div>
+
+<footer>
+<p>© 2026 FreenBecky Universe Fan Site | Made with ❤️ by Fans</p>
+</footer>
+
+<script>
+function addComment(){
+let input=document.getElementById('commentInput');
+let list=document.getElementById('commentList');
+if(input.value.trim()!==""){
+let li=document.createElement('li');
+li.textContent=input.value;
+list.appendChild(li);
+input.value="";
+}
+}
+function toggleMode(){
+document.body.classList.toggle('light');
+}
+</script>
+
+</body>
+</html>
